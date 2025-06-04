@@ -33,11 +33,9 @@ A modular Spring Boot-based industrial piecework management platform designed to
 | Image Captcha         | Kaptcha                       |
 | Logging Enhancer      | P6Spy                         |
 
-# 📦 Database Schema – Piecework Management System
+## 📦 Database Schema – Piecework Management System
 
----
-
-## 🧩 Table: `captcha`
+### 🧩 Table: `captcha`
 
 Stores temporary login/verification codes.
 
@@ -51,7 +49,7 @@ Stores temporary login/verification codes.
 
 ---
 
-## 🏢 Table: `enterprise`
+### 🏢 Table: `enterprise`
 
 Holds tenant enterprise information for SaaS-based system operation.
 
@@ -80,7 +78,7 @@ Holds tenant enterprise information for SaaS-based system operation.
 
 ---
 
-## 🖼️ Table: `image`
+### 🖼️ Table: `image`
 
 Stores uploaded image metadata and AI recognition results.
 
