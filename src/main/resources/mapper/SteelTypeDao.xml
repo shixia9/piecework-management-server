@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jackson.modules.enterprise.dao.SteelTypeMapper">
+
+    <select id="selectSteelTypeDetails" resultType="com.jackson.modules.enterprise.entity.SteelTypeEntity">
+        SELECT steel_type.name,steel_type.base_num,steel_type.create_time,sys_user.username
+        FROM steel_type LEFT JOIN sys_user ON sys_user.enterprise_id = ${enterprisedId};
+    </select>
+</mapper>
