@@ -33,7 +33,7 @@ A modular Spring Boot-based industrial piecework management platform designed to
 | Image Captcha         | Kaptcha                       |
 | Logging Enhancer      | P6Spy                         |
 
-## 📦 Database Schema – Piecework Management System
+## 📦 Database Schema
 
 ### 🧩 Table: `captcha`
 
