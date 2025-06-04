@@ -47,8 +47,6 @@ Stores temporary login/verification codes.
 
 > Used for login security and user verification.
 
----
-
 ### 🏢 Table: `enterprise`
 
 Holds tenant enterprise information for SaaS-based system operation.
@@ -75,8 +73,6 @@ Holds tenant enterprise information for SaaS-based system operation.
 | `update_time`    | DATETIME      | Last update time                    |
 
 > Supports multi-tenant platform capabilities.
-
----
 
 ### 🖼️ Table: `image`
 
